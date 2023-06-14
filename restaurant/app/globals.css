@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@font-face {
+  font-family: "pizzahut-font";
+  src: url("/fonts/pizzahut-font.ttf") format("truetype");
+}
+
+* {
+ font-family: "pizzahut-font", ;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    font-size: 2rem;
+    padding: 0;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+  .logo {
+    width: 150px;
+    height: 50px;
+  }
+};
+  
