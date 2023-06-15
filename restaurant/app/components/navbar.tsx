@@ -25,7 +25,7 @@ const Navbar: React.FC<NavbarProps> = () => {
 
   return (
     <div className={myFont.className}>
-      <nav className="navbar w-full pr-16 pl-12 absolute mt-16 flex justify-between text-7xl text-main-primary">
+      <nav className="navbar w-full pr-16 pl-12 absolute mt-16 flex justify-between text-7xl text-main-fourth" style={{ zIndex: 999 }}>
         <a href="#"
             onClick={handleLinkClick("home")}
             className={activePage === "home" ? "active" : ""}>

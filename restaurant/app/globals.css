@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --primary: #9c252d;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,11 +19,52 @@
 
 @font-face {
   font-family: "pizzahut-font";
-  src: url("/fonts/pizzahut-font.ttf") format("truetype");
+  src: url("assets/fonts/pizzahut-font.ttf") format("truetype");
 }
 
 * {
- font-family: "pizzahut-font", ;
+  font-family: "pizzahut-font";
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.card2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(7deg);
+}
+
+.content {
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+
+.animate-bouncer:hover {
+  animation: tilt-shaking .5s infinite;
+}
+
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg) scale(1.2) translateX(0);
+  }
+  25% {
+    transform: rotate(10deg) scale(1.2) translateX(10px);
+  }
+  50% {
+    transform: rotate(-10deg) scale(1.2) translateX(-5px);
+  }
+  75% {
+    transform: rotate(10deg) scale(1.2) translateX(10px);
+  }
+  100% {
+    transform: rotate(0deg) scale(1.2) translateX(0);
+  }
 }
 
 @media (max-width: 800px) {
@@ -36,5 +78,4 @@
     width: 150px;
     height: 50px;
   }
-};
-  
+}
