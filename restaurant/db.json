@@ -59,6 +59,18 @@
             "image": "/images/golden-crab.png",
             "name": "Golden Crab",
             "price": "500 mora"
+        },
+        {
+            "id": 11,
+            "image": "/images/kitty-meal.png",
+            "name": "Kitty Meal",
+            "price": "500 mora"
+        },
+        {
+            "id": 12,
+            "image": "/images/tricolor-dango.png",
+            "name": "Tricolor Dango",
+            "price": "500 mora"
         }
     ]
 }
