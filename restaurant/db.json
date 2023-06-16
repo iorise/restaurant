@@ -1,0 +1,64 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "image": "/images/invigorating.png",
+            "name": "Invigorating Pizza",
+            "price": "500 mora"
+        },
+        {
+            "id": 2,
+            "image": "/images/magnificent.png",
+            "name": "Magnificent Pizza",
+            "price": "500 mora"
+        },
+        {
+            "id": 3,
+            "image": "/images/mushroom.png",
+            "name": "Mushroom Pizza",
+            "price": "500 mora"
+        },
+        {
+            "id": 4,
+            "image": "/images/meat-mushroom.png",
+            "name": "Meat Mushroom Pizza",
+            "price": "500 mora"
+        },
+        {
+            "id": 5,
+            "image": "/images/special-mushroom.png",
+            "name": "Special Mushroom Pizza",
+            "price": "500 mora"
+        },
+        {
+            "id": 6,
+            "image": "/images/moon-pie.png",
+            "name": "Moon Pie",
+            "price": "500 mora"
+        },
+        {
+            "id": 7,
+            "image": "/images/jade-parcel.png",
+            "name": "Jade Parcel",
+            "price": "500 mora"
+        },
+        {
+            "id": 8,
+            "image": "/images/sashimi-platter.png",
+            "name": "Sashimi Platter",
+            "price": "500 mora"
+        },
+        {
+            "id": 9,
+            "image": "/images/tianshu-meat.png",
+            "name": "Tianshu Meat",
+            "price": "500 mora"
+        },
+        {
+            "id": 10,
+            "image": "/images/golden-crab.png",
+            "name": "Golden Crab",
+            "price": "500 mora"
+        }
+    ]
+}
