@@ -3,7 +3,7 @@ import Image from "next/image";
 import localFont from "next/font/local";
 import Menu from "./menu";
 import React, { useState } from "react";
-import About from "./about";
+import Contact from "./contact";
 import HomePage from "./home";
 
 const myFont = localFont({
@@ -30,7 +30,7 @@ const Navbar: React.FC<NavbarProps> = () => {
             onClick={handleLinkClick("home")}
             className={activePage === "home" ? "active" : ""}>
               <Image
-          className="logo animation-none hover:animate-pulse bg-contain cursor-pointer"
+          className="logo cursor-pointer"
           src="/images/logo.png"
           alt="logo"
           width={400}
@@ -44,22 +44,22 @@ const Navbar: React.FC<NavbarProps> = () => {
             onClick={handleLinkClick("menu")}
             className={activePage === "menu" ? "active" : ""}
           >
-            <h1 className="tracking-wider cursor-pointer">Menu</h1>
+            <h1 className="menu tracking-wider cursor-pointer">Menu</h1>
           </a>
         </div>
         <div className="about my-auto">
           <a
             href="#"
-            onClick={handleLinkClick("about")}
-            className={activePage === "about" ? "active" : ""}
+            onClick={handleLinkClick("contact")}
+            className={activePage === "contact" ? "active" : ""}
           >
-            <h1 className="tracking-wider cursor-pointer">About</h1>
+            <h1 className="about tracking-wider cursor-pointer">Contact</h1>
           </a>
         </div>
       </nav>
       {activePage === "home" && <HomePage />}
       {activePage === "menu" && <Menu />}
-      {activePage === "about" && <About />}
+      {activePage === "contact" && <Contact />}
       <div></div>
     </div>
   );

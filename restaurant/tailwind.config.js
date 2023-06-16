@@ -35,7 +35,9 @@ module.exports = {
           primary: "#ffff",
           secondary: "#f1e9de",
           third: "#f8deb9",
-          fourth: "#f5f4eb"
+          fourth: "#f5f4eb",
+          bgMain: "#f7ead8",
+          cardFont: "#431915"
         },
       },
 
